@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net" modified="2024-09-03T01:15:57.161Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="PFNpMK1FBzMDmdNY9Vlk" version="24.0.2" type="device">
+  <diagram name="Página-1" id="GeQOmckcIpQ-SUBUToGG">
+    <mxGraphModel dx="1194" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kiB-3f8cxp7KgRu3JJvz-1" value="BD" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="610" y="160" width="110" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="kiB-3f8cxp7KgRu3JJvz-3" value="Buscador" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="450" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="kiB-3f8cxp7KgRu3JJvz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="kiB-3f8cxp7KgRu3JJvz-3" source="kiB-3f8cxp7KgRu3JJvz-4" target="kiB-3f8cxp7KgRu3JJvz-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kiB-3f8cxp7KgRu3JJvz-4" value="BuscadorHotelApi" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="kiB-3f8cxp7KgRu3JJvz-3">
+          <mxGeometry y="107.5" width="160" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="kiB-3f8cxp7KgRu3JJvz-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="kiB-3f8cxp7KgRu3JJvz-3" source="kiB-3f8cxp7KgRu3JJvz-5" target="kiB-3f8cxp7KgRu3JJvz-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kiB-3f8cxp7KgRu3JJvz-5" value="Buscador.Negocio" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="kiB-3f8cxp7KgRu3JJvz-3">
+          <mxGeometry x="240" y="47.5" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kiB-3f8cxp7KgRu3JJvz-8" value="Buscador.Datos" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="kiB-3f8cxp7KgRu3JJvz-3">
+          <mxGeometry x="240" y="230" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kiB-3f8cxp7KgRu3JJvz-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kiB-3f8cxp7KgRu3JJvz-8" target="kiB-3f8cxp7KgRu3JJvz-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
